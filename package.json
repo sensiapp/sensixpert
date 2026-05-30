@@ -1,0 +1,16 @@
+{
+  "name": "sensixpert-blog-generator",
+  "version": "1.0.0",
+  "description": "SensiXpert Blog - AI otomatik yazı üretici (Gemini API)",
+  "main": "generate-post.js",
+  "scripts": {
+    "generate": "node generate-post.js",
+    "auto": "node generate-post.js --auto",
+    "serve": "npx serve . -p 3000",
+    "weekly": "node generate-post.js --auto && node generate-post.js --auto && node generate-post.js --auto"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
